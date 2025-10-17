@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Reverse Alphabet</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header>
+<h1>Reverse Alphabet: Z to A</h1>
+</header>
+<main>
+<form id="letterForm" aria-label="Enter a letter">
+<label for="letterInput">Enter a letter (A-Z):</label>
+<input type="text" id="letterInput" name="letterInput" maxlength="1" aria-required="true" />
+<button type="submit">Check Letter</button>
+</form>
+<div id="feedback" role="status" aria-live="polite"></div>
+<button id="showAll" aria-label="Show all alphabet letters">Show All Letters</button>
+<ul id="alphabetList" aria-hidden="true" style="display:none;"></ul>
+</main>
+<footer>
+<p>&copy; 2023 Alphabet Viewer</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
